@@ -1,6 +1,6 @@
 
 export default async function Login(){
-return(
+    return(
                 <div class="col">
                     <h2 className='loginHeader'>Enter in your Login information</h2>
                     <form action='logincheck' method="POST"> 

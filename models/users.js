@@ -2,7 +2,7 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 const {Schema} = mongoose
 
-module.exports.Post = require("./post.js")
+module.exports.Post = require("./posts.js")
 
 const userSchema = new Schema({
 username:{ type: String, required: true},
